@@ -4,6 +4,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>welcomeSANGKURIANG INTERNATIONAL</title>
+	<title>SANGKURIANG INTERNATIONAL</title>
 </head>
 </html>
