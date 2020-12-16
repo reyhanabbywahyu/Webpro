@@ -5,7 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <meta charset="UTF-8">
 <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 <meta name="viewport" content="width=device-width">
-<link rel="profile" href="http://gmpg.org/xfn/11">	<title>Sangkuriang Internasional - Innovative IT Solutions for You</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">	
+<title>Sangkuriang Internasional - Innovative IT Solutions for You</title>
 	<meta name="description" content="Sangkuriang Internasional is committed to provide maximum support for You. We have various IT products and services which will improve Your business.">
 	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 	<link rel="canonical" href="https://sangkuriang.co.id/">
@@ -139,7 +140,7 @@ body {top:0 !important;}
 <ul class="sub-menu">
 	<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="">Vision, Mission, and Values</a></li>
 	<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="">Our History</a></li>
-	<li id="menu-item-285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285"><a href="">Portfolio</a></li>
+	<li id="menu-item-285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285"><a href="http://localhost/WEBPRO/Tubes/DuplikasiSangkuriangWebsite/portofolio/">Portofolio</a></li>
 </ul>
 </li>
 <li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-59"><a href="" class="parent">Services</a>
