@@ -8,178 +8,59 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-<html class="jetpack-lazy-images-js-enabled" style="height: 100%;" lang="en-US"><head>
-<meta charset="UTF-8">
-<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-<meta name="viewport" content="width=device-width">
-<link rel="profile" href="http://gmpg.org/xfn/11">	
-<title>Sangkuriang Internasional - Innovative IT Solutions for You</title>
-	<meta name="description" content="Sangkuriang Internasional is committed to provide maximum support for You. We have various IT products and services which will improve Your business.">
-	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-	<link rel="canonical" href="https://sangkuriang.co.id/">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Sangkuriang Internasional - Innovative IT Solutions for You">
-	<meta property="og:description" content="Sangkuriang Internasional is committed to provide maximum support for You. We have various IT products and services which will improve Your business.">
-	<meta property="og:url" content="https://sangkuriang.co.id/">
-	<meta property="og:site_name" content="Sangkuriang Internasional">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@sangkuriangID">
-
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//s.w.org">
-<link rel="dns-prefetch" href="//c0.wp.com">
-<link rel="dns-prefetch" href="//i0.wp.com">
-<link rel="dns-prefetch" href="//i1.wp.com">
-<link rel="dns-prefetch" href="//i2.wp.com">
-<link rel="alternate" type="application/rss+xml" title="Sangkuriang Internasional » Feed" href="https://sangkuriang.co.id/feed/">
-<link rel="alternate" type="application/rss+xml" title="Sangkuriang Internasional » Comments Feed" href="https://sangkuriang.co.id/comments/feed/">
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel="stylesheet" id="gtranslate-style-css" href="https://sangkuriang.co.id/wp-content/plugins/gtranslate/gtranslate-style24.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="wp-block-library-css" href="https://c0.wp.com/c/5.5.3/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
-<style id="wp-block-library-inline-css" type="text/css">
-.has-text-align-justify{text-align:justify;}
-</style>
-<link rel="stylesheet" id="campus-gfonts-karla-css" href="//fonts.googleapis.com/css?family=Karla%3A400%2C700&amp;ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-gfonts-raleway-css" href="//fonts.googleapis.com/css?family=Raleway%3A400%2C700&amp;ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-gfonts-poppins-css" href="//fonts.googleapis.com/css?family=Poppins%3A400%2C700&amp;ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-gfonts-body-css" href="//fonts.googleapis.com/css?family=Karla&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-gfonts-logo-css" href="//fonts.googleapis.com/css?family=Raleway&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-gfonts-nav-css" href="//fonts.googleapis.com/css?family=Karla&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-gfonts-heading-css" href="//fonts.googleapis.com/css?family=Raleway&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-gfonts-teamserv-css" href="//fonts.googleapis.com/css?family=1&amp;subset=cyrillic%2Carabic%2Cbengali%2Ccyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Cgujarati%2Chebrew%2Clatin-ext%2Ctamil%2Ctelugu%2Cthai%2Cvietnamese%2Clatin&amp;ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-basic-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/style.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-editor-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/editor-style.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-base-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/css/default.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-nivo-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/css/nivo-slider.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-font-awesome-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/css/font-awesome.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-testimonialslider-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/testimonialsrotator/js/tm-rotator.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-responsive-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/css/responsive.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-owl-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/testimonialsrotator/js/owl.carousel.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="campus-animate-style-css" href="https://sangkuriang.co.id/wp-content/themes/campus-pro/css/animate.css?ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://sangkuriang.co.id/wp-content/plugins/tablepress/css/default.min.css?ver=1.12" type="text/css" media="all">
-<link rel="stylesheet" id="msl-main-css" href="https://sangkuriang.co.id/wp-content/plugins/master-slider/public/assets/css/masterslider.main.css?ver=3.6.0" type="text/css" media="all">
-<link rel="stylesheet" id="msl-custom-css" href="https://sangkuriang.co.id/wp-content/uploads/master-slider/custom.css?ver=1.3" type="text/css" media="all">
-<link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/8.9/css/jetpack.css" type="text/css" media="all">
-<style type="text/css">img#wpstats{display:none}</style>    	
-    	<script>			
-		jQuery(window).load(function() {
-        jQuery('#slider').nivoSlider({
-        	effect:'random', //sliceDown, sliceDownLeft, sliceUp, sliceUpLeft, sliceUpDown, sliceUpDownLeft, fold, fade, random, slideInRight, slideInLeft, boxRandom, boxRain, boxRainReverse, boxRainGrow, boxRainGrowReverse
-		  	animSpeed: 500,
-			pauseTime: 4000,
-			directionNav: true,
-			controlNav: false,
-			pauseOnHover: false,
-    });
-});
-
-
-jQuery(document).ready(function() {
-  
-  jQuery('.link').on('click', function(event){
-    var $this = jQuery(this);
-    if($this.hasClass('clicked')){
-      $this.removeAttr('style').removeClass('clicked');
-    } else{
-      $this.css('background','#7fc242').addClass('clicked');
-    }
-  });
- 
-});
-		</script>
-
-				<style type="text/css">
-				/* If html does not have either class, do not show lazy loaded images. */
-				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
-					display: none;
-				}
-			</style>
-			<script>
-				document.documentElement.classList.add(
-					'jetpack-lazy-images-js-enabled'
-				);
-			</script>
-<div class="header-top">
+<!-- Just an image -->
+<nav class="navbar navbar-light bg-light">
   <div class="container">
-        <div class="left"><i class="fa fa-phone"></i>+62 21 8297386<span class="phno"><a href="mailto:info@sangkuriang.co.id"><i class="fa fa-envelope"></i> info@sangkuriang.co.id</a></span></div>       
-</div>
-
-<style type="text/css">
-#goog-gt-tt {display:none !important;}
-.goog-te-banner-frame {display:none !important;}
-.goog-te-menu-value:hover {text-decoration:none !important;}
-.goog-text-highlight {background-color:transparent !important;box-shadow:none !important;}
-body {top:0 !important;}
-#google_translate_element2 {display:none!important;}
-</style>
-<div class="social-icons"><a href="https://facebook.com/sangkuriangID" target="_blank" class="fa fa-facebook" title="facebook"></a><a href="https://twitter.com/sangkuriangID" target="_blank" class="fa fa-twitter" title="twitter"></a><a href="https://youtube.com/sangkuriangID" target="_blank" class="fa fa-youtube" title="youtube"></a><a href="https://linkedin.com/company/pt-sangkuriang-internasional" target="_blank" class="fa fa-linkedin" title="linkedin"></a></div></div>
-     <div class="clear"></div>
+    <div class="row">
+ 		<div class="col-6"> <a class="navbar-brand" href="#">
+ 			<img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/logo-sangkuraing-landscape.png" alt="logo" width="50%;"></a></div>
+ 		<div class="col-6 col-6-md-4">
+      <ul class="nav nav-pills justify-content-end">
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        ABOUT US
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">VISION, MISSION AND VALUE</a>
+        <a class="dropdown-item" href="#">OUR HISTORY</a>
+        <a class="dropdown-item" href="#">PORTOFOLIO</a>
+      </div>
+    </li>
+	  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        SERVICES
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">BIG DATA INTELLIGENCE</a>
+        <a class="dropdown-item" href="#">INFORMATION SYSTEM</a>
+        <a class="dropdown-item" href="#">IT PLANNING</a>
+        <a class="dropdown-item" href="#">IT PROCUREMENT</a>
+        <a class="dropdown-item" href="#">WEB PORTAL</a>
+        <a class="dropdown-item" href="#">DATA CENTER</a>
+      </div>
+    </li>
+	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        ATOS
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">AERIAL SIGNAL FINDER(FLASH HAWK)</a>
+        <a class="dropdown-item" href="#">CELLULER COMMUNICATION INTELLIGENCE (COMINT)</a>
+        <a class="dropdown-item" href="#">JAMMER FOR NAVAL SIP</a>
+        <a class="dropdown-item" href="#">JAMMER FOR VIP</a>
+        <a class="dropdown-item" href="#">OPENSCAPE</a>
+      </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#"><STRONG>CONTACT US</a>
+  </li>
+  </ul>
     </div>
- </div>
- <!--end header-top-->
- <div class="header">
-	<div class="container">
-      <div class="logo">
-                     <a href="http://localhost/WEBPRO/Tubes/DuplikasiSangkuriangWebsite/"><img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/logo-sangkuraing-landscape.png"></a>
-                 </div><!-- .logo -->                 
-    <div class="header_right">  
-     		<div class="toggle">
-    	<a class="toggleMenu" href="#" style="display: none;">
-		            Menu         
-                          </a>
-    </div><!-- toggle -->    
-    <div class="sitenav">                   
-   	 <div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-63"><a href="https://sangkuriang.co.id/about-us/" class="parent">About Us</a>
-<ul class="sub-menu">
-	<li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="">Vision, Mission, and Values</a></li>
-	<li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-108"><a href="">Our History</a></li>
-	<li id="menu-item-285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-285"><a href="http://localhost/WEBPRO/Tubes/DuplikasiSangkuriangWebsite/portofolio/">Portofolio</a></li>
-</ul>
-</li>
-<li id="menu-item-59" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-59"><a href="" class="parent">Services</a>
-<ul class="sub-menu">
-	<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="">Big Data Intelligence</a></li>
-	<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="">Information System</a></li>
-	<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="">IT Planning</a></li>
-	<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57"><a href="">IT Procurement</a></li>
-	<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="">Web Portal</a></li>
-	<li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="">Data Center</a></li>
-</ul>
-</li>
-<li id="menu-item-364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-364"><a href="" class="parent">Atos</a>
-<ul class="sub-menu">
-	<li id="menu-item-367" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-367"><a href="">Aerial Signal Finder (Flash Hawk)</a></li>
-	<li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="">Celluler Communication Intelligence (COMINT)</a></li>
-	<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="">Jammer for Naval Ship</a></li>
-	<li id="menu-item-368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-368"><a href="">Jammer for VIP</a></li>
-	<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a href="">OpenScape</a></li>
-</ul>
-</li>
-</ul></div>   
-    </div><!--.sitenav -->
-    </div><!--header_right-->
-    <div class="apply"><a href="/contact-us/" class="buttonstyle1">CONTACT US</a></div>
- <div class="clear"></div>
-</div><!-- .container-->
-</div>
+  </div>
 </head>
 
 <body>
-div class="container"> 
+<div class="container" style="height:100%" style="weight:100%"> 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -193,43 +74,44 @@ div class="container">
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/about-us.jpg" alt="About Us">
+        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/about-us.jpg" class= "img-fluid" alt="About Us" width="100%;">
 		<div class="carousel-caption">
-		<h3>About Us</h3>
-		<h1>Sangkuriang</h1>
-        <p>!</p>
+		<h3>ABOUT US</h3>
+		<h1>SANGKURIANG</h1>
+        <h6>We are PT Sangkuriang Internasional, a company based in Indonesia since 2010. We focused on Information Technology products and services. We have a wide range of solutions that will suit your business.</h6>
 	  </div>	  
 	  </div>
 
       <div class="carousel-item">
-        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/product.jpg" alt="Product">
+        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/product.jpg" class= "img-fluid" alt="Product" width="100%;">
 		<div class="carousel-caption">
         <h1>Product</h1>
-        <p>!</p>
+        <p>We have more than 50 portfolio of IT projects that we have finished since 2010.</p>
 	  </div>	  
 	  </div>
     
       <div class="carousel-item">
-        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/service.jpg" alt="Service">
+        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/service.jpg" class= "img-fluid" alt="Service" width="100%;">
 		<div class="carousel-caption">
         <h1>Services</h1>
-        <p>!</p>
+        <p figure class="text-left">
+        We have full-fledged IT solution services. Our top 6 services are: Big Data & Intelligence, Information System, IT Planning, IT Procurement, Web Portal, and Data Center.</p>
 	  </div>
   	  </div>
 	  
 	  <div class="carousel-item">
-      <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/portfolio.jpg" alt="Protofolio">
+      <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/portfolio.jpg" class= "img-fluid" alt="Protofolio" width="100%;">
       <div class="carousel-caption">
         <h1>Portofolio</h1>
-        <p>!</p>
+        <p>We have more than 50 portfolio of IT projects that we have finished since 2010.</p>
 	  </div>
 	  </div>
 
       <div class="carousel-item">
-      <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/contact-us.jpg" alt="Contact Us">
+      <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/contact-us.jpg" class= "img-fluid" alt="Contact Us" width="100%;">
       <div class="carousel-caption">
         <h1>Contact Us</h1>
-        <p>lol</p>
+        <p>Let's have a meet up to discuss your idea to improve your business! Please feel free to contact us at our email, phone, or come by at our offices"</p>
 	  </div>
 	  </div>
     </div>
@@ -246,5 +128,27 @@ div class="container">
   </div>
 </div>
 
+<section
+	
+		<div class="card" style="width: 18rem;">
+		<img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/about-us.jpg" class="card-img-top" alt="">
+		<div class="card-body">
+			<h5 class="card-title">ABOUT US</h5>
+			<p class="card-text">We are PT Sangkuriang Internasional, a company based in Indonesia since 2010. We focused on Information Technology products and…</p>
+			<a href="#" class="btn btn-primary">READ MORE</a>
+		</div>
+		</div>
+
+<!--Our Services-->
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>OUR SERVICES</h2><br>
+      </div>
+  </div>
+</div>
 </body>
 </html>
