@@ -1,6 +1,13 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
+<head>
+
+<!--Bootstrap online 4.0.0 CDN-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 <html class="jetpack-lazy-images-js-enabled" style="height: 100%;" lang="en-US"><head>
 <meta charset="UTF-8">
 <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
@@ -168,6 +175,76 @@ body {top:0 !important;}
     <div class="apply"><a href="/contact-us/" class="buttonstyle1">CONTACT US</a></div>
  <div class="clear"></div>
 </div><!-- .container-->
-
 </div>
+</head>
+
+<body>
+div class="container"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+	  <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+	  <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/about-us.jpg" alt="About Us">
+		<div class="carousel-caption">
+		<h3>About Us</h3>
+		<h1>Sangkuriang</h1>
+        <p>!</p>
+	  </div>	  
+	  </div>
+
+      <div class="carousel-item">
+        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/product.jpg" alt="Product">
+		<div class="carousel-caption">
+        <h1>Product</h1>
+        <p>!</p>
+	  </div>	  
+	  </div>
+    
+      <div class="carousel-item">
+        <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/service.jpg" alt="Service">
+		<div class="carousel-caption">
+        <h1>Services</h1>
+        <p>!</p>
+	  </div>
+  	  </div>
+	  
+	  <div class="carousel-item">
+      <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/portfolio.jpg" alt="Protofolio">
+      <div class="carousel-caption">
+        <h1>Portofolio</h1>
+        <p>!</p>
+	  </div>
+	  </div>
+
+      <div class="carousel-item">
+      <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/contact-us.jpg" alt="Contact Us">
+      <div class="carousel-caption">
+        <h1>Contact Us</h1>
+        <p>lol</p>
+	  </div>
+	  </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+  </div>
+</div>
+
+</body>
 </html>
