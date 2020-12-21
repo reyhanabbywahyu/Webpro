@@ -1,8 +1,9 @@
-<?php
->defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html class="portofolio" style="height:100%" lang="en-US">
+<!DOCTYPE html>
+<html>
 <head>
-    <title>Portofolio</title>
+	<title>Portofolio</title>
 </head>
+<body>
+
+</body>
 </html>
