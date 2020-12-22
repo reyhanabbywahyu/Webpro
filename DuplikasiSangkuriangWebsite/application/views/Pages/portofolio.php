@@ -64,8 +64,7 @@
 </nav>
 </head>
 <body>
-    <div class="jumbotron">
-      <img id="img" src=""  alt="">        
+    <div class="jumbotron">    
     </div>  
     <section id='blok' class="content">
         <div class="container">
@@ -75,35 +74,32 @@
                     <div class="text">
                       <h6>We have more than 50 portfolio of IT projects that we have finished since 2010.</h6>
                     </div>
-                    <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                    <table class= "table table-striped">
+                      <thead>
+                        <tr>
+                          <td> <strong> Year </strong> </td>
+                          <td> <strong> Title </strong> </td>
+                          <td> <strong> Client </strong> </td>
+                          <td> <strong> Value (in million rupiahs) </strong> </td>
+                          <td> <strong> Type </strong> </td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <?php
+
+                        for($i=0;$i < 10 ; $i++) :
+                          $row=$portofolio[$i];
+                        ?>
+                        <tr>
+                          <td><?php echo $row['tahun'] ?></td>
+                          <td><?php echo $row['judul'] ?></td>
+                          <td><?php echo $row['client'] ?></td>
+                          <td><?php echo $row['harga'] ?></td>
+                          <td><?php echo $row['type'] ?></td>
+                        </tr>
+                        <?php endfor;?>
+                      </tbody>
+                    </table>
                 </div>
                 <div class="col">
                 <form class="d-flex">
