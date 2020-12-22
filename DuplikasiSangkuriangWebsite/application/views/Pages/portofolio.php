@@ -71,7 +71,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg">            
-                    <h1 class="judul">Portofolio<h1>
+                    <h1 class="judul">PORTFOLIO<h1>
                     <div class="text">
                       <h6>We have more than 50 portfolio of IT projects that we have finished since 2010.</h6>
                     </div>
