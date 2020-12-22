@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">VISION, MISSION AND VALUE</a>
               <a class="dropdown-item" href="#">OUR HISTORY</a>
-              <a class="dropdown-item" href="<?= base_url('Portofolio'); ?>">PORTOFOLIO</a>
+              <a class="dropdown-item" href="index.php/Pages/Portofolio">PORTOFOLIO</a>
             
           </li>
           <li class="nav-item dropdown">
@@ -55,7 +55,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
           </li>
         </ul>
-      
     </div>
   </div>
 </head>
