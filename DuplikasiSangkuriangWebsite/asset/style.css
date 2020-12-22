@@ -1,10 +1,16 @@
-.content-area{
-    background-color:white;
-    height: 100%;
-    weight: 100%;
-    position: absolute;
-    top: 400px;
+#blok{
 
+    background-color:white;
+    margin-top: -300px;
+    padding: 30px;
+
+}
+
+.jumbotron{
+    background-image: url("https://i0.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/portfolio.jpg?fit=5917%2C2742&amp;ssl=1");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
 

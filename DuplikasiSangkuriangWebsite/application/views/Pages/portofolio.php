@@ -64,19 +64,55 @@
 </nav>
 </head>
 <body>
-    <div class="innerbanner">    
-    <img id="img" src="https://i0.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/portfolio.jpg?fit=5917%2C2742&amp;ssl=1" class="img-fluid" alt="">
-      <div id ="cok" class="container-fluid content-area">
-      <div class="site-main">
-        <article class="post-28">
-        <header>
-            
-            <h1 class="judul">Portofolio<h1>
-            <div class="text">
-            <h6>We have more than 50 portfolio of IT projects that we have finished since 2010.</h6>
-            </div>
-      </div>     
-      </div> 
-    </div>
+    <div class="jumbotron">
+      <img id="img" src=""  alt="">        
+    </div>  
+    <section id='blok' class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">            
+                    <h1 class="judul">Portofolio<h1>
+                    <div class="text">
+                      <h6>We have more than 50 portfolio of IT projects that we have finished since 2010.</h6>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="col">
+                <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                </div>     
+            </div> 
+        </div>
+    </section>
 </body>
 </html>
