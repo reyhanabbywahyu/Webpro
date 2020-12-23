@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Portofolio</title>
+    <title>About US</title>
 
 <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width">
@@ -16,7 +16,7 @@
 <nav class="navbar navbar-light bg-light">
   <div class="container">
     <div class="row">
- 		<div class="col-6"> <a class="navbar-brand" href="#">
+ 		<div class="col-6"> <a class="navbar-brand" href="<?php echo base_url();?>">
     <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/logo-sangkuraing-landscape.png" alt="logo" width="50%;"></a></div>
         <div class="col-6 col-6-md-4">
             <ul class="nav nav-pills justify-content-end">
@@ -64,58 +64,20 @@
 </nav>
 
 </head>
-<body>
-    <div class="jumbotron">    
-    </div>  
-    <section id='blok' class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">            
-                    <h1 class="judul">PORTFOLIO<h1>
-                    <div class="text">
-                      <h6>We have more than 50 portfolio of IT projects that we have finished since 2010.</h6>
+    <body>
+        <div class="gambar_us">
+        </div>
+        <section id='balok' class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">            
+                        <h1 class="judul">about us<h1>
+                        <div class="text">
+                            <h6>We have more than 50 portfolio of IT projects that we have finished since 2010.</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md">
-                <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
-                </div> 
-              </div>  
-            <div class="row">
-              <div class="col-lg-8">  
-                    <table class= "table table-striped">
-                      <thead>
-                        <tr>
-                          <td> <strong> Year </strong> </td>
-                          <td> <strong> Title </strong> </td>
-                          <td> <strong> Client </strong> </td>
-                          <td> <strong> Value (in million rupiahs) </strong> </td>
-                          <td> <strong> Type </strong> </td>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <?php
-
-                        for($i=0;$i < 10 ; $i++) :
-                          $row=$portofolio[$i];
-                        ?>
-                        <tr>
-                          <td><?php echo $row['tahun'] ?></td>
-                          <td><?php echo $row['judul'] ?></td>
-                          <td><?php echo $row['client'] ?></td>
-                          <td><?php echo $row['harga'] ?></td>
-                          <td><?php echo $row['type'] ?></td>
-                        </tr>
-                        <?php endfor;?>
-                      </tbody>
-                    </table>    
-                </div>
-                <div class="col-md"></div> 
-              </div> 
             </div>
-    </section>
-
-</body>
+        </select>
+    </body>
 </html>

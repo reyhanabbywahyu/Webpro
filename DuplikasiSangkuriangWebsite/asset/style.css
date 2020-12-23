@@ -1,9 +1,13 @@
 #blok{
-
     background-color:white;
     margin-top: -300px;
     padding: 30px;
+}
 
+#balok{
+    background-color:white;
+    margin-top: -300px;
+    padding: 30px;
 }
 
 .jumbotron{
@@ -16,6 +20,13 @@
 .table-striped{
     table-layout: auto;
     font-size: 20px;
+}
+
+.gambar_us{
+    background-image: url("https://i1.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/about-us.jpg?fit=1420%2C659&amp;ssl=1");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
 
