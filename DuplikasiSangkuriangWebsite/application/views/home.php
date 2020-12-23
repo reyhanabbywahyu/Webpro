@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <nav class="navbar navbar-light bg-light">
   <div class="container">
     <div class="row">
- 		<div class="col-6"> <a class="navbar-brand" href="<?php echo base_url("home");?>">
+ 		<div class="col-6"> <a class="navbar-brand" href="<?php echo base_url();?>">
     <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/logo-sangkuraing-landscape.png" alt="logo" width="50%;"></a></div>
         <div class="col-6 col-6-md-4">
             <ul class="nav nav-pills justify-content-end">
@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">VISION, MISSION AND VALUE</a>
               <a class="dropdown-item" href="#">OUR HISTORY</a>
-              <a class="dropdown-item" href="index.php/Pages/Portofolio">PORTOFOLIO</a>
+              <a class="dropdown-item" href="<?php echo base_url();?>index.php/Pages/Portofolio">PORTOFOLIO</a>
             
           </li>
           <li class="nav-item dropdown">
@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+            <a class="nav-link active" aria-current="page" href="index.php/Pages/contact_us">CONTACT US</a>
           </li>
         </ul>
       
@@ -128,10 +128,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="container">
 <section id="pagearea">
   <div class="container-fluids">
+  <div class="card-deck">
     <div class="row">
       <!--card1-->
       <div class="col-md-3"> 
-            <div class="card" >
+            <div class="card" style="width: 15rem;">
                 <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/about-us.jpg" class="card-img-top" alt="">
                 <div class="card-body">
                     <h3 class="card-title">ABOUT US</h3>
@@ -142,55 +143,120 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
       <!--card2-->
       <div class="col-md-3"> 
-            <div class="card" >
+            <div class="card" style="width: 15rem;">
                 <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/service.jpg" class="card-img-top" alt="">
                 <div class="card-body">
                     <h3 class="card-title">SERVICES</h3>
                     <p class="card-text">We have full-fledged IT solution services. Our top 6 services are: Big Data & Intelligence, Information System, IT Planning,…</p>
-                    <a href="#" class="btn btn-primary">READ MORE!!</a>
+                    <a href="index.php/Pages/Service" class="btn btn-primary">READ MORE</a>
                   </div>   
           </div>
         
       </div>
       <!--card 3-->
       <div class="col-md-3"> 
-            <div class="card">
+            <div class="card" style="width: 15rem;">
                 <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/product.jpg" class="card-img-top" alt="">
                 <div class="card-body">
                     <h3 class="card-title">PRODUCT</h3>
                     <p class="card-text">We have many innovative products available. Our top 4 products are: Property Viewer (3D apps to promote property selling),…</p>
-                    <a href="#" class="btn btn-primary">READ MORE!!</a>
+                    <a href="#" class="btn btn-primary">READ MORE</a>
                   </div>
             </div>  
         
       </div> 
       <!--card 4-->
       <div class="col-md-3"> 
-            <div class="card">
+            <div class="card" style="width: 15rem;">
                 <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/portfolio.jpg" class="card-img-top" alt="">
                 <div class="card-body">
                     <h3 class="card-title">PORTOFOLIO</h3>
                     <p class="card-text">We have more than 50 portfolio of IT projects that we have finished since 2010.</p>
-                    <a href="index.php/Pages/portofolio" class="btn btn-primary">READ MORE!!</a>
+                    <a href="index.php/Pages/portofolio" class="btn btn-primary">READ MORE</a>
                   </div>
             </div>  
       </div>
-    </div>                 
+    </div>
+</div>                   
   </div>
 </section>
 </div>
 
 <!--Our Services-->
-<div class="container-fluid bg-grey">
+<h2 style="text-align:center;">OUR SERVICES</h2><br>
+<section id="blok" class="content">
+<div class="container container-fluid">
+<div class="row">  
+<div class="card-deck">
+      <!--card1-->
+              <div class="card">
+                  <img src="https://i2.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/big-data-inteligence.jpg?" class="card-img-top" alt="">
+                  <div class="card-body">
+                      <h4 class="card-title">BIG DATA INTELLIGENCE</h4>
+                      <p class="card-text">If You need to extract meaningful information from a huge size of Data which is unstructured or varies.</p>
+                      <a href="#" class="btn btn-link">READ MORE</a>
+                  </div>
+              </div>
+              <div class="clear"></div>  
+        <!--card2-->
+              <div class="card">
+                  <img src="https://i0.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/information-system.jpg?" class="card-img-top" alt="">
+                  <div class="card-body">
+                      <h4 class="card-title">INFORMATION SYSTEM</h4>
+                      <p class="card-text">If You have a running business process, and You think applications can help Your team work better and more efficient.</p>
+                      <a href="#" class="btn btn-link">READ MORE</a>
+                    </div>   
+            </div>
+            <div class="clear"></div>
+        <!--card 3-->
+              <div class="card">
+                  <img src="https://i1.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/IT-planning.jpg?" class="card-img-top" alt="">
+                  <div class="card-body">
+                      <h4 class="card-title">IT PLANNING</h4>
+                      <p class="card-text">If Your business wants to make a drastic improvement and growth, start with a good planning of the IT in every business line.</p>
+                      <a href="#" class="btn btn-link">READ MORE</a>
+                  </div>
+              </div> 
+              <div class="clear"></div>   
+  </div> 
+</div>
+  <div class="clear"></div>
+  <div class="clear"></div>
   <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>OUR SERVICES</h2><br>
-      </div>
+    <div class="card-deck">  
+          <!--card 4-->
+                <div class="card">
+                    <img src="https://i2.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/IT-procurement.jpg?" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">IT PROCUREMENT</h4>
+                        <p class="card-text">If You need IT products for your business whether Hardware, Software, Outsource, 3rd party services, etc.</p>
+                        <a href="index.php/Pages/portofolio" class="btn btn-link">READ MORE</a>
+                      </div>
+                </div>  
+          <!--card 5-->
+                <div class="card">
+                    <img src="https://i2.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/web-portal.jpg?" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">WEB PORTAL</h4>
+                        <p class="card-text">If You need a website to publish information to public, whether a Company Profile, a Forum, a Blog, etc.</p>
+                        <a href="#" class="btn btn-link">READ MORE</a>
+                      </div>   
+              </div> 
+          <!--card 6-->
+              <div class="card">
+                  <img src="https://i1.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/data-center.jpg?" class="card-img-top" alt="">
+                  <div class="card-body">
+                      <h4 class="card-title">DATA CENTER</h4>
+                      <p class="card-text">If You need place to store and run your IT infrastructure especially servers and network devices.</p>
+                      <a href="#" class="btn btn-link">READ MORE</a>
+                  </div>
+              </div>  
+
+    </div> 
   </div>
-</div>
-</div>
+
+</section>
+
+<div class="clear"></div>
 </body>
 </html>

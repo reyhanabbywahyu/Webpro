@@ -25,7 +25,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">VISION, MISSION AND VALUE</a>
               <a class="dropdown-item" href="#">OUR HISTORY</a>
-              <a class="dropdown-item" href="index.php/Pages/Portofolio">PORTOFOLIO</a>
+              <a class="dropdown-item" href="Portofolio">PORTOFOLIO</a>
             
           </li>
           <li class="nav-item dropdown">
@@ -71,10 +71,27 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">            
-                        <h1 class="judul">about us<h1>
-                        <div class="text">
-                            <h6>We have more than 50 portfolio of IT projects that we have finished since 2010.</h6>
+                        <h1 class="judul">ABOUT US<h1>
+                        <!-- Video youtube -->
+                        <div class="youtube">
+                        <iframe width="800" height="315" src="https://www.youtube.com/embed/knDT3aK8L3M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
+                        <!-- end of video youtube -->
+                        <!-- text -->
+                        <div class="text">
+                          <h6>We are PT Sangkuriang Internasional, a company based in Indonesia since 2010. We focused on Information Technology products and services. We have a wide range of solutions that will suit your business.</h6>
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div class="text">
+                          <h6>We have 50+ experienced experts that will gladly take care of your problems. Our experts keep learning and polishing their skills in order to keep up the fast changing of information technology. Our experts mostly come from top universities in Indonesia. We do not call them employee, but we call them partners and families.</h6>
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div class="text">
+                          <h6>As company, we keep innovating our services and products. We always provide up-to-date technology that suit your needs. Up-to-date technology means more efficient, more secure, more user-friendly, more accessible.</h6>
+                        </div>
+                        <!-- end of text -->
                     </div>
                 </div>
             </div>

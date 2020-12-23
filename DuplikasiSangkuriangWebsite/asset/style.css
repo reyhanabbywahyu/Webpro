@@ -29,6 +29,25 @@
     height: 600px;
 }
 
+.gambar_service{
+    background-image: url("https://i2.wp.com/sangkuriang.co.id/wp-content/uploads/2019/07/service.jpg?fit=5917%2C2743&amp;ssl=1");
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+}
+
+
+.text{
+    color: rgb(100, 100, 100);
+    font-size: 10px;
+}
+
+.clear{
+    padding: 10px;
+}
+
+
+
 
 
 

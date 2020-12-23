@@ -16,7 +16,7 @@
 <nav class="navbar navbar-light bg-light">
   <div class="container">
     <div class="row">
- 		<div class="col-6"> <a class="navbar-brand" href="#">
+ 		  <div class="col-6"> <a class="navbar-brand" href="<?php echo base_url();?>">
     <img src="https://sangkuriang.co.id/wp-content/uploads/2019/07/logo-sangkuraing-landscape.png" alt="logo" width="50%;"></a></div>
         <div class="col-6 col-6-md-4">
             <ul class="nav nav-pills justify-content-end">
@@ -57,7 +57,6 @@
             <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
           </li>
         </ul>
-      
     </div>
   </div>
   </div>
@@ -65,12 +64,11 @@
 
 </head>
 <body>
-    <div class="jumbotron">    
-    </div>  
+    <div class="jumbotron jumbotron-fluid"></div>  
     <section id='blok' class="content">
-        <div class="container">
+        <div class="container container-fluid">
             <div class="row">
-                <div class="col-lg-8">            
+                <div class="col-lg-9">            
                     <h1 class="judul">PORTFOLIO<h1>
                     <div class="text">
                       <h6>We have more than 50 portfolio of IT projects that we have finished since 2010.</h6>
@@ -85,7 +83,7 @@
               </div>  
             <div class="row">
               <div class="col-lg-8">  
-                    <table class= "table table-striped">
+                    <table class= "table table-striped table-hover">
                       <thead>
                         <tr>
                           <td> <strong> Year </strong> </td>
@@ -113,8 +111,8 @@
                     </table>    
                 </div>
                 <div class="col-md"></div> 
-              </div> 
-            </div>
+             </div> 
+        </div>
     </section>
 
 </body>
