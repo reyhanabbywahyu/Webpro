@@ -103,6 +103,11 @@
                         <form class="was">
                             <div class="mb-3">
                                 <textarea class="form-control is-invalid" id="Textarea" placeholder="Required example textarea" required></textarea>
+                                <div class="clear">
+                                </div>
+                                <button type="submit" name="tambah" class="btn btn-primary float-right">Submit</button>
+                                <div class="fild">
+                                </div>
                                 </label>
                             </div>
                         </form>

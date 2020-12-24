@@ -76,11 +76,19 @@
                 </div>
                 <div class="col-md">
                 <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2" type="search" name ="keyword" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                       </form>
                 </div> 
               </div>  
+              <div class="row mt-3">
+                <div class="col md-6 text-center mt-5">
+                    <a href="<?= base_url(); ?>index.php/Pages/portofolio/tambah " class="btn btn-primary">Add Portofolio</a>
+                </div>
+                <div class="clear">
+                </div>
+                </div>
+            </div>
             <div class="row">
               <div class="col-lg-8">  
                     <table class= "table table-striped table-hover">
@@ -94,19 +102,19 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <?php
-
-                        for($i=0;$i < 10 ; $i++) :
-                          $row=$portofolio[$i];
-                        ?>
+                         <?php $no=1; foreach ($portofolio as $d ) {?>
                         <tr>
-                          <td><?php echo $row['tahun'] ?></td>
-                          <td><?php echo $row['judul'] ?></td>
-                          <td><?php echo $row['client'] ?></td>
-                          <td><?php echo $row['harga'] ?></td>
-                          <td><?php echo $row['type'] ?></td>
+                          <td><?php echo $d['tahun'] ?></td>
+                          <td><?php echo $d['judul'] ?></td>
+                          <td><?php echo $d['client'] ?></td>
+                          <td><?php echo $d['harga'] ?></td>
+                          <td><?php echo $d['type'] ?></td>
+                          
+                          <td><a href="<?= base_url(); ?>index.php/Pages/portofolio/Ubah/<?= $d['id_portofolio'] ?>" class="badge badge-warning float-center" ?>CHANGE</a></td>
+                          
+                          <td><a href="<?= base_url(); ?>index.php/Pages/portofolio/hapus/<?= $d['id_portofolio'] ?>" class="badge badge-danger float-center" onclick="return confirm('Apakah anda yakin menghapus data ini?');" ?>DELETE</a></td>
                         </tr>
-                        <?php endfor;?>
+                        <?php } ?>
                       </tbody>
                     </table>    
                 </div>
