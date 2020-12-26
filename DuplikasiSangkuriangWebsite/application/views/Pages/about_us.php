@@ -54,7 +54,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+            <a class="nav-link active" aria-current="page" href="contact_us">CONTACT US</a>
           </li>
         </ul>
       

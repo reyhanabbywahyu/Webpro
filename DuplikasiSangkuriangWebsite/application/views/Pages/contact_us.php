@@ -54,7 +54,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+                <a class="nav-link active" aria-current="page" href="contact_us">CONTACT US</a>
             </li>
             </ul>
         </div>
@@ -90,10 +90,10 @@
                     <div class="form2">
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                                <input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                                <input type="text" class="form-control" placeholder="Website with prefix http://" aria-label="Website with prefix http://">
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                     <div class="form3">
                         <form class="was">
                             <div class="mb-3">
-                                <textarea class="form-control is-invalid" id="Textarea" placeholder="Required example textarea" required></textarea>
+                                <textarea class="form-control is-invalid" id="Textarea" placeholder="Message" required></textarea>
                                 <div class="clear">
                                 </div>
                                 <button type="submit" name="tambah" class="btn btn-primary float-right">Submit</button>

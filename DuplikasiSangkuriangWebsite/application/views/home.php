@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-6 col-6-md-4">
             <ul class="nav nav-pills justify-content-end">
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">ABOUT US</a>
+            <a class="nav-link dropdown-toggle" href="<?php echo base_url();?>index.php/Pages/about_us" id="navbardrop" data-toggle="dropdown">ABOUT US</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">VISION, MISSION AND VALUE</a>
               <a class="dropdown-item" href="#">OUR HISTORY</a>
@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="carousel-item active">
         <img class="d-block w-100" src="https://sangkuriang.co.id/wp-content/uploads/2019/07/about-us.jpg"  class="d-block w-100" alt="About Us">
 		    <div class="carousel-caption">
-          <a href="index.php/Pages/about_us">
+          <a href="#">
             <h3>ABOUT US</h3>
           </a>
           <h1>SANGKURIANG</h1>

@@ -25,7 +25,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">VISION, MISSION AND VALUE</a>
               <a class="dropdown-item" href="#">OUR HISTORY</a>
-              <a class="dropdown-item" href="index.php/Pages/Portofolio">PORTOFOLIO</a>
+              <a class="dropdown-item" href="<?php echo base_url('index.php/Pages/Portofolio');?> ">PORTOFOLIO</a>
             
           </li>
           <li class="nav-item dropdown">
@@ -54,7 +54,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">CONTACT US</a>
+            <a class="nav-link active" aria-current="page" href="contact_us">CONTACT US</a>
           </li>
         </ul>
     </div>
