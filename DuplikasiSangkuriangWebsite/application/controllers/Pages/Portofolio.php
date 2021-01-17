@@ -13,11 +13,13 @@ class Portofolio extends CI_Controller {
 	{
 		$data = [];
 		$data["portofolio"] = $this->portofolioModel->get_data_portofolio();
-		$this->load->view('/Pages/portofolio',$data);
+		
 
 		if ($this->input->post('keyword')) {
-			$data['portofolio'] = $this->portofolioModel->caridataportofolio();
+			$data['portofolio'] = $this->portofolioModel->cariDataportofolio();
 		}
+		$this->load->view('/Pages/portofolio',$data);
+
 	}
 
 	public function hapus($id)

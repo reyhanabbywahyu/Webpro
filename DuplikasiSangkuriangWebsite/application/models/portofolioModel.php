@@ -50,8 +50,13 @@ class portofolioModel extends CI_Model{
     public function cariDataportofolio()
     {
       $keyword = $this->input->post('keyword', true);
-      return $this->db->select("*")->from("portofolio")->like("tahun",$keyword)->or_like("judul",$keyword)->or_like("client",$keyword)->or_like("harga",$keyword)->or_like("type",$keyword)->get()->result_array();
-
+      $this->db->like('tahun', $keyword);
+      $this->db->or_like('judul', $keyword);
+      $this->db->or_like('client', $keyword);
+      $this->db->or_like('harga', $keyword);
+      $this->db->or_like('type', $keyword);
+      return $this->db->get('portofolio')->result_array();
+    
     }
 
 }

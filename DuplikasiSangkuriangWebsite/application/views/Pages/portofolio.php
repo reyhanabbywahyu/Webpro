@@ -75,10 +75,21 @@
                     </div>
                 </div>
                 <div class="col-md">
-                <form class="d-flex">
-                        <input class="form-control me-2" type="search" name ="keyword" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
+                  <form class="d-flex" method="post">
+                    <input class="form-control me-2" type="search" name ="keyword" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+                    <div class="row mt-1">
+                      <div class="col">
+                        <?php if(empty($portofolio)) :?>
+                          <div class="alert alert-danger" role="alert">
+                            Not Found
+                          </div>
+                        <?php endif ?>
+                      </div>
+                    </div>
+
+                  </form>
                 </div> 
               </div>  
               <div class="row mt-3">
