@@ -79,7 +79,13 @@
                     <input class="form-control me-2" type="search" name ="keyword" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
 
-                    <div class="row mt-1">
+                    
+
+                  </form>
+                </div> 
+              </div>
+                
+              <div class="row mt-1">
                       <div class="col">
                         <?php if(empty($portofolio)) :?>
                           <div class="alert alert-danger" role="alert">
@@ -89,9 +95,6 @@
                       </div>
                     </div>
 
-                  </form>
-                </div> 
-              </div>  
               <div class="row mt-3">
                 <div class="col md-6 text-center mt-5">
                     <a href="<?= base_url(); ?>index.php/Pages/portofolio/tambah " class="btn btn-primary">Add Portofolio</a>

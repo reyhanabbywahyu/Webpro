@@ -56,7 +56,7 @@ class portofolioModel extends CI_Model{
       $this->db->or_like('harga', $keyword);
       $this->db->or_like('type', $keyword);
       return $this->db->get('portofolio')->result_array();
-    
+
     }
 
 }
