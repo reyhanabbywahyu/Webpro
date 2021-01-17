@@ -258,5 +258,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </section>
 
 <div class="clear"></div>
+
+<section class="footer">
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+      <p class="text">If You need place to store and run your IT infrastructure especially servers and network devices.</p>
+      </div>
+      <div class="col-4">
+      <p class="text">Cobalah mengerti, semua ini menjadi arti. selamanya takkan berhenti.</p>
+      <a href="linkgan">linkgan</a>
+      </div>
+      <div class="col-4">
+      <p class="text">Inginkan rasakan, rindu ini menjadi satu. biar waktu yang memisahkan.</p>
+      </div>
+    </div>
+    
+
+</div>  
+</section>
 </body>
 </html>
