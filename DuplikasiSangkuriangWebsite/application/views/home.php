@@ -264,14 +264,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="container">
     <div class="row">
       <div class="col-4">
-      <p class="text">If You need place to store and run your IT infrastructure especially servers and network devices.</p>
+      <p class="text">Sangkuriang Internasional is committed to provide maximum support for You. We have various IT products and services which will improve Your business.</p>
       </div>
       <div class="col-4">
-      <p class="text">Cobalah mengerti, semua ini menjadi arti. selamanya takkan berhenti.</p>
-      <a href="linkgan">linkgan</a>
+      <h3>Downloads</h3>
+
+      <a href="https://sangkuriang.co.id/wp-content/uploads/2019/10/Compro-Sangkuriang-2019-Compressed.pdf">Company Profile 2019</a>
+      <a href="https://sangkuriang.co.id/wp-content/uploads/2019/07/Company-Profile-2016.pdf">Company Profile 2016</a>
       </div>
       <div class="col-4">
-      <p class="text">Inginkan rasakan, rindu ini menjadi satu. biar waktu yang memisahkan.</p>
+      <p class="text">Commercial Office</p>
+      <p>Jl. Tebet Timur Dalam IV no. 42 Jakarta Selatan 12820</p>
+      <p>Phone : 021-8297386</p>
+      <p>Fax : 021-8297386</p>
+      <p>Email : info@sangkuriang.co.id</p>
       </div>
     </div>
     
